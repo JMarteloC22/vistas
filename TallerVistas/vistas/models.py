@@ -6,3 +6,4 @@ class libros (models.Model):
     Autor = models.CharField(max_length=60)
     Año_Publicacion = models.CharField(max_length=60)
     Editorial = models.CharField(max_length=60)
+    
